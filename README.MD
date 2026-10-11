@@ -1,7 +1,6 @@
 # Forecasting inflation with AutoML in Amazon SageMaker Autopilot
 
-An Amazon SageMaker Autopilot AutoML pipeline for forecasting US CPI inflation using the FRED-MD database. 
-The pipeline predicts the next month's CPI inflation rate from the current values of the FRED-MD macroeconomic indicators. 
+An AutoML pipeline for one-month-ahead forecasting of US CPI inflation, built with Amazon SageMaker Autopilot. The model takes the current values of the FRED-MD macroeconomic indicators as input and predicts the next month’s inflation rate.
 
 Full details in the [blog post](https://flaviagiammarino.com/blog/inflation_autopilot.html/).
 
